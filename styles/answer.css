@@ -45,3 +45,22 @@ page-desc {
     font-weight: 400;
     line-height: normal;
 }
+
+#return {
+    position: absolute;
+    border: none;
+    outline: none;
+    bottom: 4.5vh;
+    width: 36vw;
+    height: 9vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #C3D4F5;
+    font-family: 'HarmonyOS Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 19px;
+    color: #0A59F7;
+    border-radius: 48px;
+}
