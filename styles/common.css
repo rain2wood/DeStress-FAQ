@@ -2,6 +2,9 @@
 
 body {
     background: #F1F3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -12,8 +15,6 @@ a {
 #icon {
     position: absolute;
     top: 15.125vh;
-    left: 50%;
-    transform: translateX(-50%);
     width: 6vh;
     height: 6vh;
     flex-shrink: 0;
@@ -22,8 +23,6 @@ a {
 #page-desc {
     position: absolute;
     top: 17.125vh;
-    left: 50%;
-    transform: translateX(-50%);
     color: #1E1E1E;
     font-family: HarmonyOS Sans;
     font-size: 3vh;

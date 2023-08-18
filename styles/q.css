@@ -1,0 +1,22 @@
+#card-holder {
+    position: absolute;
+    left: 50%;
+    top: 36vh;
+    transform: translateX(-50%);
+    width: 90vw;
+    height: auto;
+}
+
+#option-card,
+option-card-borderless {
+    height: 6vh; 
+}
+
+#option-card::after {
+    left: 0%;
+    width: 100%;
+}
+
+#option-text {
+    text-align: center;
+}

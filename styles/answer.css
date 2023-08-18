@@ -1,0 +1,47 @@
+#icon,
+page-desc {
+    position: relative;
+}
+
+#qna-zone {
+    position: absolute;
+    width: 100%;
+    min-height: 26.25vh;
+    top: 28vh;
+}
+
+#qna-container {
+    position: relative;
+    width: 90vw;
+    height: auto;
+    min-height: 10.5vh;
+    left: 4.7222222222vw;
+    top: 0;
+    background: #FFF;
+    border-radius: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+#question,
+#answer {
+    position: relative;
+    left: 1vh;
+    color: #1E1E1E;
+    font-family: HarmonyOS Sans;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#qtext,
+#atext {
+    position: relative;
+    color: #1E1E1E;
+    font-family: HarmonyOS Sans;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
