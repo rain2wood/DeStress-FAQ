@@ -101,6 +101,35 @@ switch (paramValue) {
         qText.textContent = "Are there any precautions or considerations for elderly individuals when using DeStress?";
         aText.textContent = "Yes. We would advise the elderly to keep track of the volume on their phones as too loud sounds may cause damage to one's hearing.";
         break;
+    // professor start
+    case "p01":
+        qText.textContent = 'How does DeStress help in solving stress problems for young people?';
+        aText.textContent = "DeStress helps young people solve stress problems through the using sounds and music to alter one's physiological and psychological functions, such as the secretion of hormones that affect emotions.";
+        break;
+    case "p02":
+        qText.textContent = 'What are the main causes of stress among young people in Hong Kong?';
+        aText.textContent = "The main causes of stress among young people in Hong Kong include high work intensities, distractions from daily tasks, social media use, and stress from both work and personal life. These factors can negatively affect mental health, work-life balance, and overall well-being. DeStress aims to address these issues by providing a solution that utilizes music and sounds to promote relaxation, focus, and emotional well-being";
+        break;
+    case "p03":
+        qText.textContent = "Can you provide more information on how music and sounds affect emotions and focus?";
+        aText.textContent = "Music and sounds have a significant impact on emotions, focus, and sustained performance. Different types of music can evoke specific emotional responses due to their beats per minute (BPM). Upbeat music can increase heart rate and create a sense of energy, while calming music with slower beats can relax the mind. For example, One study conducted by the Research Institute of Audiology and Speech Pathology of Hallym University in Korea (Park et al., 2020) found that listening to classical or jazz music resulted in higher scores and better performance in tasks measuring sustained attention and focus. By leveraging the power of music, DeStress aims to help individuals regulate their emotions, improve focus, and enhance their overall performance in various activities, including sports and daily tasks.";
+        break;
+    case "p04":
+        qText.textContent = "How does DeStress utilize music to improve work-life balance and mental well-being?";
+        aText.textContent = "DeStress utilizes music and sounds to improve work-life balance and mental well-being. By incorporating carefully selected music and soundscapes into various modes such as Focus, Relax, Sport, Sleep, and Happiness, the program aims to create a supportive environment that promotes relaxation, concentration, and positive emotions.";
+        break;
+    case "p05":
+        qText.textContent = "Are there any specific modes or techniques employed in the program to help individuals relax?";
+        aText.textContent = "No. DeStress relies only on the music played in order to help individuals relax.";
+        break;
+    case "p06":
+        qText.textContent = "How does the program address the issue of distraction caused by social media use?";
+        aText.textContent = "Although DeStress aims to remove distractions from surroundings, it can also prevent distraction from social media use by its clean background while a mode is active which aims to remove possible distractions from social media and the whole device.";
+        break;
+    case "p07":
+        qText.textContent = "Can you explain how the program assists athletes in achieving sustained performance?";
+        aText.textContent = "DeStress assists athletes in achieving sustained performance by leveraging the power of music and sounds. Research has shown that certain types of music can enhance focus, motivation, and overall performance during physical activities.\nBy incorporating specially curated playlists and soundscapes designed for sports activities, the program aims to create an optimal auditory environment that helps athletes get into the zone and maintain their performance. The rhythmic and motivational qualities of the music can synchronize with movements, elevate mood, and provide a sense of energy and determination.\nAdditionally, the program offers customizable features that allow athletes to personalize their music selections based on their preferences and the specific demands of their sport. This tailored approach helps athletes create a mental and emotional state conducive to peak performance, enabling them to reach their full potential in their respective sports disciplines.        ";
+        break;
     default:
         break;
 }
