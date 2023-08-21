@@ -128,7 +128,44 @@ switch (paramValue) {
         break;
     case "p07":
         qText.textContent = "Can you explain how the program assists athletes in achieving sustained performance?";
-        aText.textContent = "DeStress assists athletes in achieving sustained performance by leveraging the power of music and sounds. Research has shown that certain types of music can enhance focus, motivation, and overall performance during physical activities.\nBy incorporating specially curated playlists and soundscapes designed for sports activities, the program aims to create an optimal auditory environment that helps athletes get into the zone and maintain their performance. The rhythmic and motivational qualities of the music can synchronize with movements, elevate mood, and provide a sense of energy and determination.\nAdditionally, the program offers customizable features that allow athletes to personalize their music selections based on their preferences and the specific demands of their sport. This tailored approach helps athletes create a mental and emotional state conducive to peak performance, enabling them to reach their full potential in their respective sports disciplines.        ";
+        aText.textContent = "DeStress assists athletes in achieving sustained performance by leveraging the power of music and sounds. Research has shown that certain types of music can enhance focus, motivation, and overall performance during physical activities.\nBy incorporating specially curated playlists and soundscapes designed for sports activities, the program aims to create an optimal auditory environment that helps athletes get into the zone and maintain their performance. The rhythmic and motivational qualities of the music can synchronize with movements, elevate mood, and provide a sense of energy and determination.\nAdditionally, the program offers customizable features that allow athletes to personalize their music selections based on their preferences and the specific demands of their sport. This tailored approach helps athletes create a mental and emotional state conducive to peak performance, enabling them to reach their full potential in their respective sports disciplines.";
+        break;
+    // judge start
+    case "j01":
+        qText.textContent = "Can you explain in more detail how the DeStress solution utilizes music and sounds to address stress problems?";
+        aText.textContent = "DeStress utilizes music and sounds to address stress problems by leveraging their impact on emotions, focus, and sustained performance. By selecting music with specific beats per minute (BPM) and considering the user's emotional state, the solution aims to foster concentration, help users wind down from negative emotions, and improve athletic performance.";
+        break;
+    case "j02":
+        qText.textContent = "What research or studies support the claim that music and sounds can impact emotions, focus, and sustained performance in sports?";
+        aText.textContent = "DeStress refers to various studies conducted by universities while choosing soundtracks for the application. For example, a study conducted by the Research Institute of Audiology and Speech Pathology of Hallym University of Korea found that listening to classical or jazz music improves sustained performance in specific tasks.";
+        break;
+    case "j03":
+        qText.textContent = "What are the specific modes available in the DeStress application, and how are they designed to address different mental problems?";
+        aText.textContent = "DeStress offers different modes designed to address specific mental problems. The planned modes include Focus, Relax, Sport, Sleep, and Happiness. Each mode is tailored to cater to different needs such as improving concentration, aiding relaxation, reducing the impacts of insomnia, and promoting overall well-being.";
+        break;
+    case "j04":
+        qText.textContent = "Could you provide examples of the types of music or sounds that are played in each mode of the DeStress application?";
+        aText.textContent = "The proposal mentions that the 'Focus' mode plays light jazz music with a BPM not lower than 130. This choice is supported by a study from the Research Institute of Audiology and Speech Pathology of Hallym University of Korea, which suggests that jazz music can increase sustained performance.";
+        break;
+    case "j05":
+        qText.textContent = "How does the DeStress solution cater to the needs of teenagers and young adults specifically, and what age range does it target?";
+        aText.textContent = "The DeStress solution specifically targets teenagers and young adults with ages 15-30. It aims to address the mental problems faced by this age group, including issues like failure to focus, insomnia, depression, and lack of work-life balance caused by work and studies.";
+        break;
+    case "j06":
+        qText.textContent = "What are the recommended hardware requirements for using the DeStress solution, particularly in terms of the mobile device and headphones?";
+        aText.textContent = "The solution requires a mobile device connected to the internet, which acts as the platform for the application. As for headphones, any ordinary pair should suffice, though headphones with active noise-cancelling are recommended.";
+        break;
+    case "j07":
+        qText.textContent = "Are there any privacy concerns or data collection involved in DeStress, considering it analyzes facial expressions and voice tone?";
+        aText.textContent = "DeStress does not connect any user data except usage statistics, nor does it share the data to any 3rd-party providers. In addition, DeStress runs on HTTPS which prevents various attacks aimed to steal user data.";
+        break;
+    case "j08":
+        qText.textContent = "Has DeStress been tested or piloted with any target user groups, and if so, what were the results or feedback?";
+        aText.textContent = "Yes. A closed beta of DeStress have been carried out among selected students of St.Mark's school and has received generally positive reviews. The team had also improved DeStress based on the reviews and comments.";
+        break;
+    case "j09":
+        qText.textContent = "How does DeStress contribute to improving work-life balance and mental well-being specifically in the context of Hong Kong?";
+        aText.textContent = "The DeStress solution contributes to improving work-life balance and mental well-being by providing users with a tool to manage stress, enhance focus, and promote relaxation. By leveraging the power of music and sounds, it aims to alleviate the negative effects of stress on individuals, particularly in the context of Hong Kong's high work intensities and persistent stress issues.";
         break;
     default:
         break;
