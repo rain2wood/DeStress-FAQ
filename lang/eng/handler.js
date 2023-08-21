@@ -156,7 +156,7 @@ switch (paramValue) {
         aText.textContent = "The solution requires a mobile device connected to the internet, which acts as the platform for the application. As for headphones, any ordinary pair should suffice, though headphones with active noise-cancelling are recommended.";
         break;
     case "j07":
-        qText.textContent = "Are there any privacy concerns or data collection involved in DeStress, considering it analyzes facial expressions and voice tone?";
+        qText.textContent = "Are there any privacy concerns or data collection involved in DeStress?";
         aText.textContent = "DeStress does not connect any user data except usage statistics, nor does it share the data to any 3rd-party providers. In addition, DeStress runs on HTTPS which prevents various attacks aimed to steal user data.";
         break;
     case "j08":
