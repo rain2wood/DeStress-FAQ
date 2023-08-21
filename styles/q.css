@@ -1,15 +1,17 @@
 #card-holder {
     position: absolute;
     left: 50%;
-    top: 36vh;
+    top: 30vh;
     transform: translateX(-50%);
     width: 90vw;
     height: auto;
+    overflow: scroll;
 }
 
 #option-card,
 option-card-borderless {
-    height: 6vh; 
+    min-height: 6vh;
+    height: auto; 
 }
 
 #option-card::after {
@@ -19,4 +21,10 @@ option-card-borderless {
 
 #option-text {
     text-align: center;
+    color: #1E1E1E;
+    font-family: HarmonyOS Sans;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
