@@ -96,6 +96,11 @@ switch (paramValue) {
         qText.textContent = "Are there any additional resources or support available within the DeStress app, such as guided meditation or breathing exercises?";
         aText.textContent = "No. However it is recommended to use DeStress with headphones and in quiet environments.";
         break;
+    // elderly start
+    case "e01":
+        qText.textContent = "Are there any precautions or considerations for elderly individuals when using DeStress?";
+        aText.textContent = "Yes. We would advise the elderly to keep track of the volume on their phones as too loud sounds may cause damage to one's hearing.";
+        break;
     default:
         break;
 }
