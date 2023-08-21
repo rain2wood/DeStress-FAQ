@@ -50,6 +50,9 @@ switch (paramValue) {
         qText.textContent = "Are there any copyright issues with the soundtracks in DeStress?";
         aText.textContent = 'No. Songs used in DeStress are either copyright-free or re-recorded and/or mixed by ourselves from scores that are in the public domain / do not have any more active licenses.';
         break;
+    case "c10":
+        qText.textContent = "Will the black screen cause huge battery drain?";
+        aText.textContent = "No. The black screen can save battery on AMOLED screens. Furthermore, the black screen itself is static and would save more battery.";
     default:
         break;
 }
