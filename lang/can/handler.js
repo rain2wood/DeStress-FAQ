@@ -93,8 +93,8 @@ switch (paramValue) {
         aText.textContent = "目前還不支援。該應用程式僅提供英文版本，但計劃添加多種語言的翻譯版本。";
         break;
     case "a10":
-        qText.textContent = "DeStress應用程式中是否提供其他資源或支援，如引導冥想或呼吸運動？";
-        aText.textContent = "不提供。但建議使用者在安靜的環境中使用DeStress應用程式並配戴耳機。";
+        qText.textContent = "黑屏會導致巨大的電池耗電嗎？";
+        aText.textContent = "不會。黑屏可以節省AMOLED屏幕的電池電量。此外，黑屏本身是靜態的，能更節省更多的電池電量。";
         break;
     // elderly start
     case "e01":

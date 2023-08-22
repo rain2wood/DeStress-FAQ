@@ -93,8 +93,8 @@ switch (paramValue) {
         aText.textContent = "Not yet. The app is only in English, but there are plans to add multiple translations.";
         break;
     case "a10":
-        qText.textContent = "Are there any additional resources or support available within the DeStress app, such as guided meditation or breathing exercises?";
-        aText.textContent = "No. However it is recommended to use DeStress with headphones and in quiet environments.";
+        qText.textContent = "Will the black screen cause huge battery drain?";
+        aText.textContent = "No. The black screen can save battery on AMOLED screens. Furthermore, the black screen itself is static and would save more battery.";
         break;
     // elderly start
     case "e01":
