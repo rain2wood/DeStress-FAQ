@@ -81,7 +81,7 @@ switch (paramValue) {
         aText.textContent = "如果您指的是每個會話的時間限制，目前還沒有提供自定義設置的功能。然而，DeStress應用程式提供了不同的模式和功能，以滿足不同用戶的需求。您可以根據自己的偏好，在專注模式、放鬆模式、睡眠模式、快樂模式和運動模式之間進行切換，並按照自己的節奏和需要使用應用程式。如果您有特定的建議或意見，我們非常歡迎您的反饋，以便改進應用程式的功能和使用體驗。";
         break;
     case "a07":
-        aText.textContent = "DeStress應用程式在使用時是否有任何隱私或數據安全措施？";
+        qText.textContent = "DeStress應用程式在使用時是否有任何隱私或數據安全措施？";
         aText.textContent = "DeStress應用程式除了使用統計數據外，不會連接任何使用者資料，也不會將資料分享給任何第三方供應商。此外，DeStress應用程式運行在HTTPS上，可以防止各種意圖竊取使用者資料的攻擊。";
         break;
     case "a08":
